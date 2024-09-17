@@ -1,4 +1,3 @@
-# First decide what image you want to use as a base. In this case, we are using the node-alpine image. This is a lightweight Linux distribution including Node.js.
 FROM node:lts-alpine AS build
 WORKDIR /app
 
